@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="#">Bigbelly</a>
+        </div>
+
+        <nav id="nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="html/about.html">About</a></li>
+                <li><a href="#new">New</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+
+            <div id="btnClose" class="btn-close">
+                <i class="fa-solid fa-xmark btn-close"></i>
+            </div>
+        </nav>
+
+        <div id="headerIcons" class="header-icons">
+            <i class="fa-solid fa-bars-staggered"></i>
+        </div>
+    </header>
+
+    <section>
+        <div class="home-section">
+            <div class="home-title1">
+                <h2>BIG</h2>
+            </div>
+
+            <div class="home-container">
+                    <div class="home-image">
+                        <img src="image/b.png">
+                    </div>
+            </div>
+
+            <div class="home-title2">
+                <h2>BELLY</h2>
+            </div>
+        </div>
+    </section>
+
+    <section id="new">
+        <div class="filter-buttons">
+            <button onclick="filterProducts('all')">Tất cả</button>
+            <button onclick="filterProducts('nam')">Nam</button>
+            <button onclick="filterProducts('nu')">Nữ</button>
+            <button onclick="filterProducts('cute')">Cute</button>
+        </div>
+
+        <div class="product-container">
+            <div class="product" data-gender="nu">
+                <img src="image/n61.jpg">
+            </div>
+            <div class="product" data-gender="nu">
+                <img src="image/c1.jpg">
+            </div>
+            <div class="product" data-gender="nu">
+                <img src="image/n62.jpg">
+            </div>
+            <div class="product" data-gender="cute">
+                <img src="image/c15.jpg">
+            </div>
+            <div class="product" data-gender="nu">
+                <img src="image/n63.jpg">
+            </div>
+            <div class="product" data-gender="nu">
+                <img src="image/n64.jpg">
+            </div>
+            <div class="product" data-gender="nu">
+                <img src="image/n65.jpg">
+            </div>
+            <div class="product" data-gender="nu">
+                <img src="image/n66.jpg">
+            </div>
+            <div class="product" data-gender="nu">
+                <img src="image/n67.jpg">
+            </div>
+            <div class="product" data-gender="cute">
+                <img src="image/c2.jpg">
+            </div>
+            <div class="product" data-gender="cute">
+                <img src="image/c3.jpg">
+            </div>
+            <div class="product" data-gender="cute">
+                <img src="image/c4.jpg">
+            </div>
+            <div class="product" data-gender="cute">
+                <img src="image/c5.jpg">
+            </div>
+            <div class="product" data-gender="cute">
+                <img src="image/c6.jpg">
+            </div>
+            <div class="product" data-gender="cute">
+                <img src="image/c7.jpg">
+            </div>
+            <div class="product" data-gender="cute">
+                <img src="image/c8.jpg">
+            </div>
+            <div class="product" data-gender="cute">
+                <img src="image/c9.jpg">
+            </div>
+            <div class="product" data-gender="cute">
+                <img src="image/c10.jpg">
+            </div>
+            <div class="product" data-gender="cute">
+                <img src="image/c11.jpg">
+            </div>
+            <div class="product" data-gender="cute">
+                <img src="image/c12.jpg">
+            </div>
+            <div class="product" data-gender="cute">
+                <img src="image/c13.jpg">
+            </div>
+            <div class="product" data-gender="cute">
+                <img src="image/c14.jpg">
+            </div>
+            <div class="product" data-gender="cute">
+                <img src="image/c16.jpg">
+            </div>
+            <div class="product" data-gender="cute">
+                <img src="image/c12.jpg">
+            </div>
+            <div class="product" data-gender="cute">
+                <img src="image/c13.jpg">
+            </div>
+            <div class="product" data-gender="cute">
+                <img src="image/c14.jpg">
+            </div>
+            <div class="product" data-gender="cute">
+                <img src="image/c15.jpg">
+            </div>
+            <div class="product" data-gender="cute">
+                <img src="image/c16.jpg">
+            </div>
+            <div class="product" data-gender="cute">
+                <img src="image/c19.jpg">
+            </div>
+            <div class="product" data-gender="nu">
+                <img src="image/n39.jpg">
+            </div>
+            <div class="product" data-gender="nu">
+                <img src="image/n40.jpg">
+            </div>
+            <div class="product" data-gender="nam">
+                <img src="image/b5.jpg">
+            </div>
+            <div class="product" data-gender="nam">
+                <img src="image/b6.jpg">
+            </div>
+            <div class="product" data-gender="nam">
+                <img src="image/b7.jpg">
+            </div>
+            <div class="product" data-gender="nam">
+                <img src="image/b8.jpg">
+            </div>
+            <div class="product" data-gender="nam">
+                <img src="image/b9.jpg">
+            </div>
+            <div class="product" data-gender="nam">
+                <img src="image/b10.jpg">
+            </div>
+            <div class="product" data-gender="nam">
+                <img src="image/b11.jpg">
+            </div>
+            <div class="product" data-gender="nam">
+                <img src="image/b12.jpg">
+            </div>
+            <div class="product" data-gender="nam">
+                <img src="image/b13.jpg">
+            </div>
+            <div class="product" data-gender="nam">
+                <img src="image/b15.jpg">
+            </div>
+            <div class="product" data-gender="nam">
+                <img src="image/b16.jpg">
+            </div>
+            <div class="product" data-gender="nu">
+                <img src="image/n57.jpg">
+            </div>
+            <div class="product" data-gender="nam">
+                <img src="image/b17.jpg">
+            </div>
+            <div class="product" data-gender="nam">
+                <img src="image/b18.jpg">
+            </div>
+            <div class="product" data-gender="nam">
+                <img src="image/b19.jpg">
+            </div>
+            <div class="product" data-gender="nam">
+                <img src="image/b20.jpg">
+            </div>
+            <div class="product" data-gender="nam">
+                <img src="image/b21.jpg">
+            </div>
+            <div class="product" data-gender="nam">
+                <img src="image/b22.jpg">
+            </div>
+            <div class="product" data-gender="nam">
+                <img src="image/b23.jpg">
+            </div>
+            <div class="product" data-gender="nam">
+                <img src="image/b24.jpg">
+            </div>
+            <div class="product" data-gender="nam">
+                <img src="image/b25.jpg">
+            </div>
+            <div class="product" data-gender="nam">
+                <img src="image/b26.jpg">
+            </div>
+            <div class="product" data-gender="nam">
+                <img src="image/b27.jpg">
+            </div>
+            <div class="product" data-gender="nam">
+                <img src="image/b28.jpg">
+            </div>
+            <div class="product" data-gender="nu">
+                <img src="image/n28.jpg">
+            </div>
+            <div class="product" data-gender="nu">
+                <img src="image/n29.jpg">
+            </div>
+            <div class="product" data-gender="nu">
+                <img src="image/n30.jpg">
+            </div>
+            <div class="product" data-gender="nam">
+                <img src="image/b2.jpg">
+            </div>
+            <div class="product" data-gender="nu">
+                <img src="image/n31.jpg">
+            </div>
+            <div class="product" data-gender="nu">
+                <img src="image/n32.jpg">
+            </div>
+            <div class="product" data-gender="nu">
+                <img src="image/n33.jpg">
+            </div>
+            <div class="product" data-gender="nu">
+                <img src="image/n34.jpg">
+            </div>
+            <div class="product" data-gender="nu">
+                <img src="image/n35.jpg">
+            </div>
+            <div class="product" data-gender="nu">
+                <img src="image/n36.jpg">
+            </div>
+            <div class="product" data-gender="nu">
+                <img src="image/n37.jpg">
+            </div>
+            <div class="product" data-gender="nu">
+                <img src="image/n38.jpg">
+            </div>
+            <div class="product" data-gender="nu">
+                <img src="image/n41.jpg">
+            </div>
+            <div class="product" data-gender="nu">
+                <img src="image/n42.jpg">
+            </div>
+            <div class="product" data-gender="nam">
+                <img src="image/b1.jpg">
+            </div>
+            <div class="product" data-gender="nu">
+                <img src="image/n43.jpg">
+            </div>
+            <div class="product" data-gender="nu">
+                <img src="image/n44.jpg">
+            </div>
+            <div class="product" data-gender="nu">
+                <img src="image/n45.jpg">
+            </div>
+            <div class="product" data-gender="nu">
+                <img src="image/n46.jpg">
+            </div>
+            <div class="product" data-gender="nu">
+                <img src="image/n47.jpg">
+            </div>
+            <div class="product" data-gender="nu">
+                <img src="image/n48.jpg">
+            </div>
+            <div class="product" data-gender="nu">
+                <img src="image/n49.jpg">
+            </div>
+            <div class="product" data-gender="nu">
+                <img src="image/n50.jpg">
+            </div>
+            <div class="product" data-gender="nu">
+                <img src="image/n51.jpg">
+            </div>
+            <div class="product" data-gender="nu">
+                <img src="image/n52.jpg">
+            </div>
+            <div class="product" data-gender="nu">
+                <img src="image/n53.jpg">
+            </div>
+            <div class="product" data-gender="nu">
+                <img src="image/n54.jpg">
+            </div>
+            <div class="product" data-gender="nu">
+                <img src="image/n55.jpg">
+            </div>
+            <div class="product" data-gender="nu">
+                <img src="image/n57.jpg">
+            </div>
+            <div class="product" data-gender="nu">
+                <img src="image/n58.jpg">
+            </div>
+            <div class="product" data-gender="nu">
+                <img src="image/n59.jpg">
+            </div>
+            <div class="product" data-gender="nu">
+                <img src="image/n60.jpg">
+            </div>
+            <div class="product" data-gender="cute">
+                <img src="image/n4.jpg">
+            </div>
+            <div class="product" data-gender="cute">
+                <img src="image/n5.jpg">
+            </div>
+            <div class="product" data-gender="cute">
+                <img src="image/n2.jpg">
+            </div>
+            <div class="product" data-gender="cute">
+                <img src="image/n3.jpg">
+            </div>
+            <div class="product" data-gender="cute">
+                <img src="image/n4.jpg">
+            </div>
+            <div class="product" data-gender="cute">
+                <img src="image/n5.jpg">
+            </div>
+            <div class="product" data-gender="cute">
+                <img src="image/n6.jpg">
+            </div>
+            <div class="product" data-gender="cute">
+                <img src="image/n7.jpg">
+            </div>
+            <div class="product" data-gender="cute">
+                <img src="image/n8.jpg">
+            </div>
+            <div class="product" data-gender="cute">
+                <img src="image/n9.jpg">
+            </div>
+            <div class="product" data-gender="cute">
+                <img src="image/n10.jpg">
+            </div>
+            <div class="product" data-gender="cute">
+                <img src="image/n11.jpg">
+            </div>
+            <div class="product" data-gender="cute">
+                <img src="image/n12.jpg">
+            </div>
+            <div class="product" data-gender="cute">
+                <img src="image/n13.jpg">
+            </div>
+            <div class="product" data-gender="cute">
+                <img src="image/n14.jpg">
+            </div>
+            <div class="product" data-gender="cute">
+                <img src="image/n15.jpg">
+            </div>
+            <div class="product" data-gender="cute">
+                <img src="image/n16.jpg">
+            </div>
+            <div class="product" data-gender="cute">
+                <img src="image/n17.jpg">
+            </div>
+            <div class="product" data-gender="cute">
+                <img src="image/n18.jpg">
+            </div>
+            <div class="product" data-gender="cute">
+                <img src="image/n19.jpg">
+            </div>
+            <div class="product" data-gender="cute">
+                <img src="image/n20.jpg">
+            </div>
+            <div class="product" data-gender="cute">
+                <img src="image/n21.jpg">
+            </div>
+            <div class="product" data-gender="cute">
+                <img src="image/n22.jpg">
+            </div>
+            <div class="product" data-gender="cute">
+                <img src="image/n23.jpg">
+            </div>
+            <div class="product" data-gender="cute">
+                <img src="image/n24.jpg">
+            </div>
+            <div class="product" data-gender="cute">
+                <img src="image/n25.jpg">
+            </div>
+            <div class="product" data-gender="cute">
+                <img src="image/n26.jpg">
+            </div>
+            <div class="product" data-gender="cute">
+                <img src="image/n27.jpg">
+            </div>
+        </div>
+        
+        
+    </section>
+
+    <script src="../js/index.js"></script>
+</body>
+</html>
